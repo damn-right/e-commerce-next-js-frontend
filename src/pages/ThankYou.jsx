@@ -73,7 +73,7 @@ const ThankYou = () => {
           Thank you again for your purchase!
         </h4>
         <h4 className="text-xl max-sm:text-lg">
-          Sincerely, The The New Fashion team
+          Sincerely, The Veggie Delight team
         </h4>
       </div>
     </>

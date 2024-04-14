@@ -59,8 +59,12 @@ const Header = () => {
             to="/"
             className="btn btn-ghost normal-case text-2xl font-black text-accent-content"
           >
-            <AiFillShopping />
-            The New Fashion
+           <img
+            src={`/src/assets/logo.png`}
+            alt="logo"
+            style={{ height: "50px", width: "50px"}}
+          />
+            Veggie Delight
           </Link>
         </div>
         {/* Header quick links goes below */}

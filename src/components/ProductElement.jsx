@@ -13,8 +13,9 @@ const ProductElement = ({ id, title, image, rating, price, brandName }) => {
         <Link to={`/shop/product/${id}`} onClick={() => window.scrollTo(0, 0)}>
           <img
             className="rounded-t-lg p-8"
-            src={`https://${image}`}
+            src={`${image}`}
             alt="product image"
+            style={{ height: "450px", width: "350px"}}
           />
         </Link>
         <div className="px-5 pb-5">

@@ -1,10 +1,10 @@
-# The New Fashion
+# Veggie Delight
 
-Welcome to The New Fashion, the ultimate destination for fashion enthusiasts seeking a sophisticated online shopping experience. This is the project I have made completely alone with my current React.js skills. I created this project for my college exam and also because I wanted to test my current web development skills. The New Fashion is an innovative e-commerce platform offering a diverse range of clothing and footwear. With a catalog of over a hundred products, my online shop is designed to cater to the varied tastes and preferences of our customers. The website is equipped with user-friendly features to ensure a seamless shopping experience. This repository is home to a comprehensive React.js eCommerce project, showcasing a refined and responsive shopping platform 
+Welcome to Veggie Delight, the ultimate destination for fashion enthusiasts seeking a sophisticated online shopping experience. This is the project I have made completely alone with my current React.js skills. I created this project for my college exam and also because I wanted to test my current web development skills. Veggie Delight is an innovative e-commerce platform offering a diverse range of clothing and footwear. With a catalog of over a hundred products, my online shop is designed to cater to the varied tastes and preferences of our customers. The website is equipped with user-friendly features to ensure a seamless shopping experience. This repository is home to a comprehensive React.js eCommerce project, showcasing a refined and responsive shopping platform 
 tailored for the trendy and style-savvy.
 
 # Introduction
-The New Fashion is a fashion eCommerce website design that's built with the modern consumer in mind. Leveraging the power of React.js, I've created an engaging and intuitive platform that stands out in the digital marketplace. My project demonstrates how eCommerce and fashion can merge seamlessly in a digital ecosystem, providing an exceptional user experience from homepage to checkout.
+Veggie Delight is a fashion eCommerce website design that's built with the modern consumer in mind. Leveraging the power of React.js, I've created an engaging and intuitive platform that stands out in the digital marketplace. My project demonstrates how eCommerce and fashion can merge seamlessly in a digital ecosystem, providing an exceptional user experience from homepage to checkout.
 
 # Project Features
 - React Ecommerce Frontend: A modern and clean interface that highlights our product catalog with elegance and style.
@@ -51,7 +51,7 @@ Front-End: HTML5, CSS3, JavaScript (with React.js framework)
 Mobile-First Approach: The website is designed to be fully responsive and mobile-friendly, ensuring a consistent experience across all devices.
 
 # Conclusion
-The New Fashion is dedicated to providing an exceptional online shopping experience. With our comprehensive range of products and user-centric features, we aim to be the go-to destination for fashion enthusiasts seeking convenience, variety, and style.
+Veggie Delight is dedicated to providing an exceptional online shopping experience. With our comprehensive range of products and user-centric features, we aim to be the go-to destination for fashion enthusiasts seeking convenience, variety, and style.
 
 Project screenshots:
 

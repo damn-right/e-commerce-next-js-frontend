@@ -65,13 +65,13 @@ const Footer = () => {
           <li>
             <FaRegEnvelope className="text-2xl max-sm:text-lg text-accent-content" />{" "}
             <span className="text-2xl max-sm:text-lg text-accent-content">
-              support@thenewfashion.com
+              support@veggiedelight.com
             </span>
           </li>
         </ul>
       </div>
         <p className="text-2xl max-sm:text-sm text-accent-content">
-          Copyright © 2024 - All right reserved by The New Fashion
+          Copyright © 2024 - All right reserved by Veggie Delight
         </p>
       </aside>
     </footer>

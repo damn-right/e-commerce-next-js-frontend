@@ -3,8 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white !important;
+    /* color: black !important; */
 }
 
 .stat{
+    text-align: center;
+    color: black !important;
+    font-weight: 800;
+    font-size: 3rem;
     text-align: center;
 }

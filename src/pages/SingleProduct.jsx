@@ -121,14 +121,15 @@ const SingleProduct = () => {
       <div className="grid grid-cols-2 max-w-7xl mx-auto mt-5 max-lg:grid-cols-1 max-lg:mx-5">
         <div className="product-images flex flex-col justify-center max-lg:justify-start">
           <img
-            src={`https://${productData?.additionalImageUrls[currentImage]}`}
+            src={`${productData?.additionalImageUrls[currentImage]}`}
             className="w-96 text-center border border-gray-600 cursor-pointer"
             alt={productData.name}
+            style={{ height: "450px", width: "385px"}}
           />
           <div className="other-product-images mt-1 grid grid-cols-3 w-96 gap-y-1 gap-x-2 max-sm:grid-cols-2 max-sm:w-64">
             {productData?.additionalImageUrls.map((imageObj, index) => (
               <img
-                src={`https://${imageObj}`}
+                src={`${imageObj}`}
                 key={nanoid()}
                 onClick={() => setCurrentImage(index)}
                 alt={productData.name}
@@ -220,9 +221,9 @@ const SingleProduct = () => {
             <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
               Brand: {productData?.brandName}
             </div>
-            <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
+            {/* <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
               Gender: {productData?.gender}
-            </div>
+            </div> */}
             <div
               className={
                 productData?.isInStock
@@ -235,9 +236,9 @@ const SingleProduct = () => {
             <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
               SKU: {productData?.productCode}
             </div>
-            <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
+            {/* <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
               Category: {productData?.category}
-            </div>
+            </div> */}
             <div className="badge bg-gray-700 badge-lg font-bold text-white p-5 mt-2">
               Production Date:{" "}
               {productData?.productionDate?.substring(0, 10)}
