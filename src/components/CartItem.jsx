@@ -15,7 +15,7 @@ const CartItem = ({ cartItem }) => {
     >
       {/* IMAGE */}
       <img
-        src={`https://${image}`}
+        src={`${image}`}
         alt={title}
         className="h-24 w-24 rounded-lg sm:h-32 sm:w-32 object-cover"
       />
