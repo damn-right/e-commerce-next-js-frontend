@@ -51,7 +51,7 @@ const ThankYou = () => {
         </h2>
 
         <h3 className="text-2xl mt-10 max-sm:text-xl">
-          We hope you love your new clothes and shoes! We appreciate your
+          We hope you love our fresh veggies We appreciate your
           business and look forward to seeing you again soon.
         </h3>
         <h3 className="text-2xl mt-5 max-sm:text-xl">
