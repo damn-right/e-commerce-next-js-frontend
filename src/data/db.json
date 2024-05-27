@@ -1,603 +1,696 @@
 {
-  "products":[
-     {
-        "id":"1",
-        "name":"Carrots",
-        "description":"Fresh and crunchy carrots",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "1kg",
-           "2kg",
-           "3kg"
-        ],
-        "rating":5,
-        "reviews":[
-           {
-              "username":"Alice",
-              "location":"USA",
-              "rating":5,
-              "date":"2024-04-10",
-              "reviewTitle":"Delicious carrots!",
-              "reviewText":"The carrots were fresh and sweet. Loved them!"
-           },
-           {
-              "username":"Bob",
-              "location":"Canada",
-              "rating":4,
-              "date":"2024-04-11",
-              "reviewTitle":"Good quality",
-              "reviewText":"These carrots were a great addition to my meals."
-           }
-        ],
-        "totalReviewCount":2,
-        "productionDate":"2024-04-13T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":3.99,
-              "text":"$3.99"
-           }
+  "products": [
+    {
+      "id": "1",
+      "name": "Carrots",
+      "description": "Fresh and crunchy carrots",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "1kg",
+        "2kg",
+        "3kg"
+      ],
+      "rating": 5,
+      "reviews": [
+        {
+          "username": "Alice",
+          "location": "USA",
+          "rating": 5,
+          "date": "2024-04-10",
+          "reviewTitle": "Delicious carrots!",
+          "reviewText": "The carrots were fresh and sweet. Loved them!"
         },
-        "brandName":"Veggie Delight",
-        "productCode":1001,
-        "imageUrl":"../src/assets/product/carrot.jpg",
-        "additionalImageUrls":[
-           "http://localhost:5173/src/assets/product/carrot.jpg",
-           "http://localhost:5173/src/assets/product/carrot.jpg",
-           "http://localhost:5173/src/assets/product/carrot.jpg"
-        ]
-     },
-     {
-        "id":"2",
-        "name":"Broccoli",
-        "description":"Fresh and nutritious broccoli",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "1kg",
-           "2kg",
-           "3kg"
-        ],
-        "rating":4.8,
-        "reviews":[
-           {
-              "username":"Jane",
-              "location":"UK",
-              "rating":5,
-              "date":"2024-04-12",
-              "reviewTitle":"Fantastic broccoli!",
-              "reviewText":"This broccoli was super fresh and tasted amazing."
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-13T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":2.49,
-              "text":"$2.49"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1002,
-        "imageUrl":"../src/assets/product/broccoli.webp",
-        "additionalImageUrls":[
-          "http://localhost:5173/src/assets/product/broccoli.webp",
-          "http://localhost:5173/src/assets/product/broccoli.webp",
-          "http://localhost:5173/src/assets/product/broccoli.webp"
-        ]
-     },
-     {
-        "id":"3",
-        "name":"Tomatoes",
-        "description":"Juicy and flavorful tomatoes",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "500g",
-           "1kg",
-           "2kg"
-        ],
-        "rating":4.5,
-        "reviews":[
-           {
-              "username":"Eva",
-              "location":"Germany",
-              "rating":4,
-              "date":"2024-04-12",
-              "reviewTitle":"Great tomatoes!",
-              "reviewText":"These tomatoes were fresh and perfect for salads."
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-14T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":1.99,
-              "text":"$1.99"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1003,
-        "imageUrl":"../src/assets/product/tomato.jpg",
-        "additionalImageUrls":[
-          "http://localhost:5173/src/assets/product/tomato.jpg",
-          "http://localhost:5173/src/assets/product/tomato.jpg",
-          "http://localhost:5173/src/assets/product/tomato.jpg"
-        ]
-     },
-     {
-        "id":"4",
-        "name":"Potatoes",
-        "description":"Versatile and delicious potatoes",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "1kg",
-           "2kg",
-           "3kg"
-        ],
-        "rating":4.3,
-        "reviews":[
-           {
-              "username":"Chris",
-              "location":"France",
-              "rating":4,
-              "date":"2024-04-15",
-              "reviewTitle":"Good quality potatoes",
-              "reviewText":"The potatoes were fresh and great for cooking."
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-15T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":2.99,
-              "text":"$2.99"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1004,
-        "imageUrl":"../src/assets/product/potato.jpg",
-        "additionalImageUrls":[
-          "http://localhost:5173/src/assets/product/potato.jpg",
-          "http://localhost:5173/src/assets/product/potato.jpg",
-          "http://localhost:5173/src/assets/product/potato.jpg"
-        ]
-     },
-     {
-        "id":"21",
-        "name":"Spinach",
-        "description":"Nutrient-rich spinach leaves",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "500g",
-           "1kg",
-           "2kg"
-        ],
-        "rating":4.5,
-        "reviews":[
-           {
-              "username":"Alice Johnson",
-              "location":"UK",
-              "rating":4,
-              "date":"2024-04-10",
-              "reviewTitle":"Good quality spinach",
-              "reviewText":"The spinach was fresh and tasted great in salads."
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-13T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":1.99,
-              "text":"$1.99"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1021,
-        "imageUrl":"../src/assets/product/spinach.jpg",
-        "additionalImageUrls":[
-          "http://localhost:5173/src/assets/product/spinach.jpg",
-          "http://localhost:5173/src/assets/product/spinach.jpg",
-          "http://localhost:5173/src/assets/product/spinach.jpg"
-        ]
-     },
-     {
-        "id":"5",
-        "name":"Chili",
-        "description":"Fresh and spicy chili peppers",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "100g",
-           "200g",
-           "500g"
-        ],
-        "rating":4.2,
-        "reviews":[
-           {
-              "username":"David",
-              "location":"Australia",
-              "rating":4,
-              "date":"2024-04-14",
-              "reviewTitle":"Spicy and flavorful",
-              "reviewText":"These chili peppers added a kick to my dishes. Loved it!"
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-16T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":1.49,
-              "text":"$1.49"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1005,
-        "imageUrl":"../src/assets/product/chilly.jpg",
-        "additionalImageUrls":[
-          "http://localhost:5173/src/assets/product/chilly.jpg",
-          "http://localhost:5173/src/assets/product/chilly.jpg",
-          "http://localhost:5173/src/assets/product/chilly.jpg"
-        ]
-     },
-     {
-        "id":"6",
-        "name":"Onion",
-        "description":"Fresh and aromatic onions",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "500g",
-           "1kg",
-           "2kg"
-        ],
-        "rating":4.7,
-        "reviews":[
-           {
-              "username":"Emily",
-              "location":"New Zealand",
-              "rating":5,
-              "date":"2024-04-17",
-              "reviewTitle":"Great quality onions",
-              "reviewText":"These onions were perfect for cooking. Loved the aroma!"
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-18T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":2.29,
-              "text":"$2.29"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1006,
-        "imageUrl":"../src/assets/product/onion.jpg",
-        "additionalImageUrls":[
-           "http://localhost:5173/src/assets/product/onion.jpg",
-           "http://localhost:5173/src/assets/product/onion.jpg",
-           "http://localhost:5173/src/assets/product/onion.jpg"
-        ]
-     },
-     {
-        "id":"7",
-        "name":"Cabbage",
-        "description":"Fresh and crisp cabbage heads",
-        "isInStock":true,
-        "gender":"NA",
-        "category":"vegetables",
-        "availableSizes":[
-           "1kg",
-           "2kg",
-           "3kg"
-        ],
-        "rating":4.5,
-        "reviews":[
-           {
-              "username":"Michael",
-              "location":"South Africa",
-              "rating":4,
-              "date":"2024-04-19",
-              "reviewTitle":"Good quality cabbage",
-              "reviewText":"The cabbage was fresh and great for salads."
-           }
-        ],
-        "totalReviewCount":1,
-        "productionDate":"2024-04-20T09:00:00.594Z",
-        "price":{
-           "current":{
-              "value":1.99,
-              "text":"$1.99"
-           }
-        },
-        "brandName":"Veggie Delight",
-        "productCode":1007,
-        "imageUrl":"../src/assets/product/cabbage.jpg",
-        "additionalImageUrls":[
-          "http://localhost:5173/src/assets/product/cabbage.jpg",
-          "http://localhost:5173/src/assets/product/cabbage.jpg",
-          "http://localhost:5173/src/assets/product/cabbage.jpg"
-        ]
-     }
+        {
+          "username": "Bob",
+          "location": "Canada",
+          "rating": 4,
+          "date": "2024-04-11",
+          "reviewTitle": "Good quality",
+          "reviewText": "These carrots were a great addition to my meals."
+        }
+      ],
+      "totalReviewCount": 2,
+      "productionDate": "2024-04-13T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 3.99,
+          "text": "$3.99"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1001,
+      "imageUrl": "../src/assets/product/carrot.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/carrot1.jpg",
+        "http://localhost:5173/src/assets/product/carrot2.jpg",
+        "http://localhost:5173/src/assets/product/carrot3.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Broccoli",
+      "description": "Fresh and nutritious broccoli",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "1kg",
+        "2kg",
+        "3kg"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "Jane",
+          "location": "UK",
+          "rating": 5,
+          "date": "2024-04-12",
+          "reviewTitle": "Fantastic broccoli!",
+          "reviewText": "This broccoli was super fresh and tasted amazing."
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-13T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 2.49,
+          "text": "$2.49"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1002,
+      "imageUrl": "../src/assets/product/broccoli.webp",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/brocoli1.jpg",
+        "http://localhost:5173/src/assets/product/brocoli2.jpg",
+        "http://localhost:5173/src/assets/product/brocoli3.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Tomatoes",
+      "description": "Juicy and flavorful tomatoes",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "500g",
+        "1kg",
+        "2kg"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "Eva",
+          "location": "Germany",
+          "rating": 4,
+          "date": "2024-04-12",
+          "reviewTitle": "Great tomatoes!",
+          "reviewText": "These tomatoes were fresh and perfect for salads."
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-14T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 1.99,
+          "text": "$1.99"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1003,
+      "imageUrl": "../src/assets/product/tomato.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/tomato1.jpg",
+        "http://localhost:5173/src/assets/product/tomato2.jpg",
+        "http://localhost:5173/src/assets/product/tomato3.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Potatoes",
+      "description": "Versatile and delicious potatoes",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "1kg",
+        "2kg",
+        "3kg"
+      ],
+      "rating": 4.3,
+      "reviews": [
+        {
+          "username": "Chris",
+          "location": "France",
+          "rating": 4,
+          "date": "2024-04-15",
+          "reviewTitle": "Good quality potatoes",
+          "reviewText": "The potatoes were fresh and great for cooking."
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-15T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 2.99,
+          "text": "$2.99"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1004,
+      "imageUrl": "../src/assets/product/potato.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/potato1.jpg",
+        "http://localhost:5173/src/assets/product/potato2.jpg",
+        "http://localhost:5173/src/assets/product/potato3.jpg"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Spinach",
+      "description": "Nutrient-rich spinach leaves",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "500g",
+        "1kg",
+        "2kg"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "Alice Johnson",
+          "location": "UK",
+          "rating": 4,
+          "date": "2024-04-10",
+          "reviewTitle": "Good quality spinach",
+          "reviewText": "The spinach was fresh and tasted great in salads."
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-13T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 1.99,
+          "text": "$1.99"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1021,
+      "imageUrl": "../src/assets/product/spinach.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/spinach1.jpg",
+        "http://localhost:5173/src/assets/product/spinach2.jpg",
+        "http://localhost:5173/src/assets/product/spinach3.jpg"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chili",
+      "description": "Fresh and spicy chili peppers",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "100g",
+        "200g",
+        "500g"
+      ],
+      "rating": 4.2,
+      "reviews": [
+        {
+          "username": "David",
+          "location": "Australia",
+          "rating": 4,
+          "date": "2024-04-14",
+          "reviewTitle": "Spicy and flavorful",
+          "reviewText": "These chili peppers added a kick to my dishes. Loved it!"
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-16T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 1.49,
+          "text": "$1.49"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1005,
+      "imageUrl": "../src/assets/product/chilly.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/chilli1.jpg",
+        "http://localhost:5173/src/assets/product/chilli2.jpg",
+        "http://localhost:5173/src/assets/product/chilli3.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Onion",
+      "description": "Fresh and aromatic onions",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "500g",
+        "1kg",
+        "2kg"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "Emily",
+          "location": "New Zealand",
+          "rating": 5,
+          "date": "2024-04-17",
+          "reviewTitle": "Great quality onions",
+          "reviewText": "These onions were perfect for cooking. Loved the aroma!"
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-18T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 2.29,
+          "text": "$2.29"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1006,
+      "imageUrl": "../src/assets/product/onion.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/onion1.jpg",
+        "http://localhost:5173/src/assets/product/onion2.jpg",
+        "http://localhost:5173/src/assets/product/onion3.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Cabbage",
+      "description": "Fresh and crisp cabbage heads",
+      "isInStock": true,
+      "gender": "NA",
+      "category": "vegetables",
+      "availableSizes": [
+        "1kg",
+        "2kg",
+        "3kg"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "Michael",
+          "location": "South Africa",
+          "rating": 4,
+          "date": "2024-04-19",
+          "reviewTitle": "Good quality cabbage",
+          "reviewText": "The cabbage was fresh and great for salads."
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-04-20T09:00:00.594Z",
+      "price": {
+        "current": {
+          "value": 1.99,
+          "text": "$1.99"
+        }
+      },
+      "brandName": "Veggie Delight",
+      "productCode": 1007,
+      "imageUrl": "../src/assets/product/cabbage1.jpg",
+      "additionalImageUrls": [
+        "http://localhost:5173/src/assets/product/cabbage.jpg",
+        "http://localhost:5173/src/assets/product/cabbage2.jpg",
+        "http://localhost:5173/src/assets/product/cabbage3.jpg"
+      ]
+    }
   ],
-  "user":[
-     {
-        "id":"EDVYu6rC_G9SL9Z7-H9tr",
-        "name":"Aleksandar",
-        "lastname":"Kuzmanovic",
-        "email":"kuzma@gmail.com",
-        "phone":"061123231",
-        "adress":"Marka Markovica 252",
-        "password":"1233214321",
-        "userWishlist":[
-           {
-              "id":204453531,
-              "title":"AAPE By A Bathing Ape baseball t-shirt in black",
-              "image":"images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-              "rating":4,
-              "price":69,
-              "brandName":"AAPE BY A BATHING APE®",
-              "amount":1,
-              "selectedSize":"XS",
-              "isInWishList":false
-           },
-           {
-              "id":205002072,
-              "title":"ASOS DESIGN heeled chelsea boots in snake print faux leather",
-              "image":"images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
-              "rating":5,
-              "price":99.99,
-              "brandName":"ASOS DESIGN",
-              "amount":1,
-              "selectedSize":"XS",
-              "isInWishList":false
-           },
-           {
-              "id":204954181,
-              "title":"ASOS DESIGN relaxed satin shirt in panther animal print",
-              "image":"images.asos-media.com/products/asos-design-relaxed-satin-shirt-in-panther-animal-print/204954181-1-black",
-              "rating":5,
-              "price":42.99,
-              "brandName":"ASOS DESIGN",
-              "amount":1,
-              "selectedSize":"XS",
-              "isInWishList":false
-           }
-        ]
-     }
+  "user": [
+    {
+      "id": "EDVYu6rC_G9SL9Z7-H9tr",
+      "name": "Aleksandar",
+      "lastname": "Kuzmanovic",
+      "email": "kuzma@gmail.com",
+      "phone": "061123231",
+      "adress": "Marka Markovica 252",
+      "password": "1233214321",
+      "userWishlist": [
+        {
+          "id": 204453531,
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        },
+        {
+          "id": 205002072,
+          "title": "ASOS DESIGN heeled chelsea boots in snake print faux leather",
+          "image": "images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
+          "rating": 5,
+          "price": 99.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        },
+        {
+          "id": 204954181,
+          "title": "ASOS DESIGN relaxed satin shirt in panther animal print",
+          "image": "images.asos-media.com/products/asos-design-relaxed-satin-shirt-in-panther-animal-print/204954181-1-black",
+          "rating": 5,
+          "price": 42.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        },
+        {
+          "id": "10",
+          "title": "Carrots",
+          "image": "../src/assets/product/carrot.jpg",
+          "rating": 5,
+          "price": 3.99,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "1kg",
+          "isInWishList": false
+        }
+      ]
+    }
   ],
-  "orders":[
-     {
-        "userId":"UIJrEcYfkKo3wKOni2t9Q",
-        "orderStatus":"in progress",
-        "subtotal":306.99,
-        "cartItems":[
-           {
-              "id":"204453531S",
-              "title":"AAPE By A Bathing Ape baseball t-shirt in black",
-              "image":"images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-              "rating":4,
-              "price":69,
-              "brandName":"AAPE BY A BATHING APE®",
-              "amount":3,
-              "selectedSize":"S",
-              "isInWishList":false
-           },
-           {
-              "id":"205002072L",
-              "title":"ASOS DESIGN heeled chelsea boots in snake print faux leather",
-              "image":"images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
-              "rating":5,
-              "price":99.99,
-              "brandName":"ASOS DESIGN",
-              "amount":1,
-              "selectedSize":"L",
-              "isInWishList":false
-           }
-        ],
-        "id":"1"
-     },
-     {
-        "userId":"UIJrEcYfkKo3wKOni2t9Q",
-        "orderStatus":"in progress",
-        "subtotal":506.96999999999997,
-        "cartItems":[
-           {
-              "id":"204453531S",
-              "title":"AAPE By A Bathing Ape baseball t-shirt in black",
-              "image":"images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-              "rating":4,
-              "price":69,
-              "brandName":"AAPE BY A BATHING APE®",
-              "amount":3,
-              "selectedSize":"S",
-              "isInWishList":false
-           },
-           {
-              "id":"205002072L",
-              "title":"ASOS DESIGN heeled chelsea boots in snake print faux leather",
-              "image":"images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
-              "rating":5,
-              "price":99.99,
-              "brandName":"ASOS DESIGN",
-              "amount":3,
-              "selectedSize":"L",
-              "isInWishList":false
-           }
-        ],
-        "id":"2"
-     },
-     {
-        "userId":"UIJrEcYfkKo3wKOni2t9Q",
-        "orderStatus":"in progress",
-        "subtotal":324,
-        "cartItems":[
-           {
-              "id":205002006,
-              "title":"ASOS DESIGN mule platform slippers in black",
-              "image":"images.asos-media.com/products/asos-design-mule-platform-slippers-in-black/205002006-1-black",
-              "rating":5,
-              "price":54,
-              "brandName":"ASOS DESIGN",
-              "amount":1,
-              "selectedSize":39,
-              "isInWishList":false
-           },
-           {
-              "id":204349751,
-              "title":"Reebok BB 4000 II sneakers in white with blue detail",
-              "image":"images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
-              "rating":3,
-              "price":90,
-              "brandName":"Reebok",
-              "amount":3,
-              "selectedSize":37,
-              "isInWishList":false
-           }
-        ],
-        "id":"3"
-     },
-     {
-        "userId":"UIJrEcYfkKo3wKOni2t9Q",
-        "orderStatus":"in progress",
-        "subtotal":84.99,
-        "cartItems":[
-           {
-              "id":204472528,
-              "title":"ASOS DESIGN creeper loafers in white leather",
-              "image":"images.asos-media.com/products/asos-design-creeper-loafers-in-white-leather/204472528-1-white",
-              "rating":4,
-              "price":84.99,
-              "brandName":"ASOS DESIGN",
-              "amount":1,
-              "selectedSize":39,
-              "isInWishList":false
-           }
-        ],
-        "id":"4"
-     },
-     {
-        "userId":"UClll_XZPf2tgJKQMehI6",
-        "orderStatus":"in progress",
-        "subtotal":299.96999999999997,
-        "cartItems":[
-           {
-              "id":"205002072L",
-              "title":"ASOS DESIGN heeled chelsea boots in snake print faux leather",
-              "image":"images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
-              "rating":5,
-              "price":99.99,
-              "brandName":"ASOS DESIGN",
-              "amount":3,
-              "selectedSize":"L",
-              "isInWishList":false
-           }
-        ],
-        "id":"5"
-     },
-     {
-        "userId":"UIJrEcYfkKo3wKOni2t9Q",
-        "orderStatus":"in progress",
-        "subtotal":690,
-        "cartItems":[
-           {
-              "id":"204453531M",
-              "title":"AAPE By A Bathing Ape baseball t-shirt in black",
-              "image":"images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-              "rating":4,
-              "price":69,
-              "brandName":"AAPE BY A BATHING APE®",
-              "amount":10,
-              "selectedSize":"M",
-              "isInWishList":false
-           }
-        ],
-        "id":"6"
-     },
-     {
-        "userId":"UIJrEcYfkKo3wKOni2t9Q",
-        "orderStatus":"in progress",
-        "subtotal":69,
-        "cartItems":[
-           {
-              "id":204453531,
-              "title":"AAPE By A Bathing Ape baseball t-shirt in black",
-              "image":"images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-              "rating":4,
-              "price":69,
-              "brandName":"AAPE BY A BATHING APE®",
-              "amount":1,
-              "selectedSize":"XS",
-              "isInWishList":false
-           }
-        ],
-        "id":"7"
-     },
-     {
-        "userId":"EDVYu6rC_G9SL9Z7-H9tr",
-        "orderStatus":"in progress",
-        "subtotal":69,
-        "cartItems":[
-           {
-              "id":204453531,
-              "title":"AAPE By A Bathing Ape baseball t-shirt in black",
-              "image":"images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
-              "rating":4,
-              "price":69,
-              "brandName":"AAPE BY A BATHING APE®",
-              "amount":1,
-              "selectedSize":"XS",
-              "isInWishList":true
-           }
-        ],
-        "id":"8"
-     },
-     {
-        "userId":"EDVYu6rC_G9SL9Z7-H9tr",
-        "orderStatus":"in progress",
-        "subtotal":84.99,
-        "cartItems":[
-           {
-              "id":204472528,
-              "title":"ASOS DESIGN creeper loafers in white leather",
-              "image":"images.asos-media.com/products/asos-design-creeper-loafers-in-white-leather/204472528-1-white",
-              "rating":4,
-              "price":84.99,
-              "brandName":"ASOS DESIGN",
-              "amount":1,
-              "selectedSize":39,
-              "isInWishList":false
-           }
-        ],
-        "id":"9"
-     },
-     {
-        "id":"73a2",
-        "userId":"EDVYu6rC_G9SL9Z7-H9tr",
-        "orderStatus":"in progress",
-        "subtotal":90,
-        "cartItems":[
-           {
-              "id":"2043497510",
-              "title":"Reebok BB 4000 II sneakers in white with blue detail",
-              "image":"images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
-              "rating":3,
-              "price":90,
-              "brandName":"Reebok",
-              "amount":1,
-              "selectedSize":37,
-              "isInWishList":false
-           }
-        ]
-     }
+  "orders": [
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 306.99,
+      "cartItems": [
+        {
+          "id": "204453531S",
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 3,
+          "selectedSize": "S",
+          "isInWishList": false
+        },
+        {
+          "id": "205002072L",
+          "title": "ASOS DESIGN heeled chelsea boots in snake print faux leather",
+          "image": "images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
+          "rating": 5,
+          "price": 99.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": "L",
+          "isInWishList": false
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 506.96999999999997,
+      "cartItems": [
+        {
+          "id": "204453531S",
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 3,
+          "selectedSize": "S",
+          "isInWishList": false
+        },
+        {
+          "id": "205002072L",
+          "title": "ASOS DESIGN heeled chelsea boots in snake print faux leather",
+          "image": "images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
+          "rating": 5,
+          "price": 99.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 3,
+          "selectedSize": "L",
+          "isInWishList": false
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 324,
+      "cartItems": [
+        {
+          "id": 205002006,
+          "title": "ASOS DESIGN mule platform slippers in black",
+          "image": "images.asos-media.com/products/asos-design-mule-platform-slippers-in-black/205002006-1-black",
+          "rating": 5,
+          "price": 54,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": 39,
+          "isInWishList": false
+        },
+        {
+          "id": 204349751,
+          "title": "Reebok BB 4000 II sneakers in white with blue detail",
+          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
+          "rating": 3,
+          "price": 90,
+          "brandName": "Reebok",
+          "amount": 3,
+          "selectedSize": 37,
+          "isInWishList": false
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 84.99,
+      "cartItems": [
+        {
+          "id": 204472528,
+          "title": "ASOS DESIGN creeper loafers in white leather",
+          "image": "images.asos-media.com/products/asos-design-creeper-loafers-in-white-leather/204472528-1-white",
+          "rating": 4,
+          "price": 84.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": 39,
+          "isInWishList": false
+        }
+      ],
+      "id": "4"
+    },
+    {
+      "userId": "UClll_XZPf2tgJKQMehI6",
+      "orderStatus": "in progress",
+      "subtotal": 299.96999999999997,
+      "cartItems": [
+        {
+          "id": "205002072L",
+          "title": "ASOS DESIGN heeled chelsea boots in snake print faux leather",
+          "image": "images.asos-media.com/products/asos-design-heeled-chelsea-boots-in-snake-print-faux-leather/205002072-1-snakegrey",
+          "rating": 5,
+          "price": 99.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 3,
+          "selectedSize": "L",
+          "isInWishList": false
+        }
+      ],
+      "id": "5"
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 690,
+      "cartItems": [
+        {
+          "id": "204453531M",
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 10,
+          "selectedSize": "M",
+          "isInWishList": false
+        }
+      ],
+      "id": "6"
+    },
+    {
+      "userId": "UIJrEcYfkKo3wKOni2t9Q",
+      "orderStatus": "in progress",
+      "subtotal": 69,
+      "cartItems": [
+        {
+          "id": 204453531,
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": false
+        }
+      ],
+      "id": "7"
+    },
+    {
+      "userId": "EDVYu6rC_G9SL9Z7-H9tr",
+      "orderStatus": "in progress",
+      "subtotal": 69,
+      "cartItems": [
+        {
+          "id": 204453531,
+          "title": "AAPE By A Bathing Ape baseball t-shirt in black",
+          "image": "images.asos-media.com/products/aape-by-a-bathing-ape-baseball-t-shirt-in-black/204453531-1-black",
+          "rating": 4,
+          "price": 69,
+          "brandName": "AAPE BY A BATHING APE®",
+          "amount": 1,
+          "selectedSize": "XS",
+          "isInWishList": true
+        }
+      ],
+      "id": "8"
+    },
+    {
+      "userId": "EDVYu6rC_G9SL9Z7-H9tr",
+      "orderStatus": "in progress",
+      "subtotal": 84.99,
+      "cartItems": [
+        {
+          "id": 204472528,
+          "title": "ASOS DESIGN creeper loafers in white leather",
+          "image": "images.asos-media.com/products/asos-design-creeper-loafers-in-white-leather/204472528-1-white",
+          "rating": 4,
+          "price": 84.99,
+          "brandName": "ASOS DESIGN",
+          "amount": 1,
+          "selectedSize": 39,
+          "isInWishList": false
+        }
+      ],
+      "id": "9"
+    },
+    {
+      "id": "73a2",
+      "userId": "EDVYu6rC_G9SL9Z7-H9tr",
+      "orderStatus": "in progress",
+      "subtotal": 90,
+      "cartItems": [
+        {
+          "id": "2043497510",
+          "title": "Reebok BB 4000 II sneakers in white with blue detail",
+          "image": "images.asos-media.com/products/reebok-bb-4000-ii-sneakers-in-white-with-blue-detail/204349751-1-white",
+          "rating": 3,
+          "price": 90,
+          "brandName": "Reebok",
+          "amount": 1,
+          "selectedSize": 37,
+          "isInWishList": false
+        }
+      ]
+    },
+    {
+      "id": "4ef9",
+      "userId": "EDVYu6rC_G9SL9Z7-H9tr",
+      "orderStatus": "in progress",
+      "subtotal": 3.99,
+      "cartItems": [
+        {
+          "id": "10",
+          "title": "Carrots",
+          "image": "../src/assets/product/carrot.jpg",
+          "rating": 5,
+          "price": 3.99,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "1kg",
+          "isInWishList": false
+        }
+      ]
+    },
+    {
+      "id": "47a7",
+      "userId": "EDVYu6rC_G9SL9Z7-H9tr",
+      "orderStatus": "in progress",
+      "subtotal": 11.950000000000001,
+      "cartItems": [
+        {
+          "id": "10",
+          "title": "Carrots",
+          "image": "../src/assets/product/carrot.jpg",
+          "rating": 5,
+          "price": 3.99,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "1kg",
+          "isInWishList": true
+        },
+        {
+          "id": "20",
+          "title": "Broccoli",
+          "image": "../src/assets/product/broccoli.webp",
+          "rating": 4.8,
+          "price": 2.49,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "1kg",
+          "isInWishList": false
+        },
+        {
+          "id": "50",
+          "title": "Chili",
+          "image": "../src/assets/product/chilly.jpg",
+          "rating": 4.2,
+          "price": 1.49,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "100g",
+          "isInWishList": false
+        },
+        {
+          "id": "210",
+          "title": "Spinach",
+          "image": "../src/assets/product/spinach.jpg",
+          "rating": 4.5,
+          "price": 1.99,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "500g",
+          "isInWishList": false
+        },
+        {
+          "id": "211kg",
+          "title": "Spinach",
+          "image": "../src/assets/product/spinach.jpg",
+          "rating": 4.5,
+          "price": 1.99,
+          "brandName": "Veggie Delight",
+          "amount": 1,
+          "selectedSize": "1kg",
+          "isInWishList": false
+        }
+      ]
+    }
   ]
 }
