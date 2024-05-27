@@ -9,59 +9,22 @@ import FormCheckbox from "./FormCheckbox";
 const Filters = () => {
   const [selectCategoryList, setSelectCategoryList] = useState([
     "all",
-    "shoes",
-    "slippers",
-    "heels",
-    "t-shirts",
-    "jackets",
-    "caps",
-    "shorts",
-    "sweaters",
-    "sneakers",
-    "shirts",
-    "boots",
-    "overshirts",
-    "pants",
-    "jeans",
-    "socks",
-    "belts",
-    "trainers",
+    "root",
+    "Fruit",
+    "leaf",
+    "Stem",
+    "Flower"
   ]);
   const [selectBrandList, setSelectBrandList] = useState([
     "all",
-    "WALK LONDON",
-    "Reebok",
-    "Nike",
-    "Jack & Jones",
-    "Crocs",
-    "Vans",
-    "Puma",
-    "New Balance",
-    "Tommy Jeans",
-    "Tommy Hilfiger",
-    "Bershka",
-    "New Look",
-    "AllSaints",
-    "Columbia",
-    "The North Face",
-    "Collusion",
-    "ASOS DESIGN",
-    "Topman",
-    "Dr Denim",
-    "Polo Ralph Lauren",
-    "ASOS Dark Future",
-    "Levi's",
-    "Threadbare",
-    "Calvin Klein",
-    "AAPE BY A BATHING APE®",
-    "Good For Nothing",
-    "Timberland",
-    "Pull and Bear",
-    "Koi Footwear",
-    "adidas performance",
-    "Nike Running",
-    "Dr Martens",
-    "River Island",
+    "Carrot",
+    "Chilli",
+    "Onion",
+    "Tomato",
+    "Potatoes",
+    "Broccoli",
+    "Spinach",
+    "Cabbage"
   ]);
 
   return (
@@ -84,7 +47,7 @@ const Filters = () => {
       />
       {/* COMPANIES */}
       <FormSelect
-        label="select brand"
+        label="select Vegetables"
         name="brand"
         list={selectBrandList}
         size="select-sm"
@@ -100,9 +63,9 @@ const Filters = () => {
       />
       {/* Producer */}
       <FormSelect
-        label="Select gender"
+        label="Organic/Inorganic"
         name="gender"
-        list={["all", "male", "female"]}
+        list={["all", "Organic", "InOrganic"]}
         size="select-sm"
         defaultValue="all"
       />
