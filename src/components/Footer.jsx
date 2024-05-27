@@ -59,7 +59,7 @@ const Footer = () => {
           <li>
             <FaHeadphones className="text-2xl max-sm:text-lg text-accent-content" />
             <span className="text-2xl max-sm:text-lg text-accent-content">
-              +91-8111854020
+              +91-9742894424
             </span>
           </li>
           <li>
